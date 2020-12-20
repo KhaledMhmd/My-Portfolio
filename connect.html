@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khaled Mohamed - Home</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body id="homepage">
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light static-top">
+        <div class="container-fluid">
+          <button class="backBtn">
+            <img src="back.png" alt="back arrow" class="imgBack" />
+          </button>
+          <a class="navbar-brand" href="homepage.html">
+            <img class="logo" src="logo.png" alt="image of the logo" />
+          </a>
+          <button
+            class="navbar-toggle navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarResponsive"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link navLink" href="about.html"
+                  >About
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navLink" href="portfolio.html">Portfolio</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link navLink" href="connect.html">Connect</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="main">
+      <h1 class="mainTitle">LET'S CONNECT</h1>
+      <svg class="connectHorizontalLine hLine" height="10">
+        <rect
+          class="connectHorizontalLine hLine"
+          height="10"
+          width="0"
+          style="fill: rgb(255, 255, 0); stroke-width: 1"
+        />
+      </svg>
+      <div class="formContainer">
+        <form>
+          <div class="formRow">
+            <div class="col-25">
+              <label class="formLabel" for="name">Name</label>
+            </div>
+            <div class="col-75">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your name"
+              />
+            </div>
+          </div>
+          <div class="formRow">
+            <div class="col-25">
+              <label class="formLabel" for="email">Email</label>
+            </div>
+            <div class="col-75">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your email"
+              />
+            </div>
+          </div>
+
+          <div class="formRow">
+            <div class="col-25">
+              <label class="formLabel" for="message">Message</label>
+            </div>
+            <div class="col-75">
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Write something.."
+                style="height: 100px"
+              ></textarea>
+            </div>
+          </div>
+          <div class="formRow submitContainer">
+            <input type="submit" value="Send" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footerIcons">
+        <a href="https://www.linkedin.com/in/Khaled-Mhmd/"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/KhaledMhmd"
+          ><i class="fab fa-github"></i
+        ></a>
+      </div>
+      <div class="footerText">
+        <div class="footerTitle">Contact Me</div>
+        <div class="contactInfo">
+          <div class="email">Email: &nbsp;KhaledMhmd174@gmail.com</div>
+          <div class="address">
+            Address: &nbsp;8 Ahmed AbdelGhaffar, Cairo, Egypt
+          </div>
+          <div class="number">Number: &nbsp;+01112258484</div>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

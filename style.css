@@ -1,0 +1,509 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.main {
+  flex: 1 0 auto;
+}
+.navbar .nav-item a {
+  color: #444444 !important;
+}
+
+.container {
+  margin: 0;
+}
+.col-md-6 {
+  padding: 0 !important;
+}
+@media all and (min-width: 768px) {
+  .navbar {
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  }
+  .navbar .nav-item a {
+    color: #000000 !important;
+    font-weight: bold;
+  }
+  .backBtn {
+    display: none;
+  }
+}
+.logo {
+  width: 50px;
+  display: block;
+  margin: 0 auto;
+}
+
+.navbar-brand {
+  margin: 0 auto;
+  display: table;
+}
+
+.navbar .nav-item a:hover {
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.nav-item {
+  margin-right: 4% !important;
+}
+
+.backBtn {
+  background-color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.backBtn:hover,
+.backBtn:active,
+.backBtn:focus {
+  border: none;
+  outline: none;
+}
+.imgBack {
+  width: 44px;
+}
+.mainTitle {
+  font-size: 2.3rem;
+  text-align: center;
+  margin-top: 8%;
+  font-weight: bold;
+  font-family: Bebas Neue, sans-serif;
+}
+.navbar-nav {
+  text-align: right;
+}
+
+.smallerPic {
+  width: 35%;
+  margin: 20px auto;
+  display: block;
+  border-radius: 50%;
+}
+.mainText {
+  font-weight: bold;
+  text-align: center;
+  font-size: 2.3rem;
+  font-family: Bebas Neue, sans-serif;
+}
+.hLine {
+  position: relative;
+  z-index: -1;
+}
+.homeHorizontalLine {
+  top: -25px;
+  display: block;
+  margin: 0 auto;
+  width: 155px;
+}
+.mainSubText {
+  text-align: center;
+  position: relative;
+  top: -18px;
+  font-size: 0.8rem;
+}
+.homeBtns {
+  text-align: center;
+}
+.btnHome {
+  background-color: #000000;
+  color: #ffffff;
+  outline: none;
+  border: none;
+
+  border: 1px solid rgb(0, 0, 0);
+}
+.btnHome2 {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+.btn {
+  margin-top: 0;
+  margin-bottom: 10px;
+  border-radius: 0% !important ;
+}
+
+.footer {
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  height: 23%;
+}
+.footerIcons {
+  flex: 1;
+  margin: auto 10px;
+}
+.footerIcons a {
+  color: yellow;
+  margin-left: 18%;
+}
+.footerText {
+  flex: 3;
+}
+.footerTitle {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 6% 0 10px 0;
+}
+.contactInfo {
+  font-size: 12px;
+  margin: auto auto;
+}
+.navbar-toggle {
+  border: none;
+  outline: none;
+}
+.navbar-toggle:focus {
+  outline: none;
+  border: none;
+}
+.navbar-toggle:active {
+  outline: none;
+  border: none;
+}
+
+.btnHome:hover,
+.btnHome:focus,
+.btnHome:active {
+  outline: none;
+  background-color: #000000;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.btnHome2:hover,
+.btnHome2:focus,
+.btnHome2:active {
+  outline: none;
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.aboutHorizontalLine {
+  width: 120px;
+  top: -31px;
+  left: calc(50% - 60px);
+}
+.aboutMainText {
+  text-align: center;
+  font-size: 0.8rem;
+  margin: -4% 10% 4% 10%;
+}
+.mySkillsHeading {
+  font-size: 1.4rem;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 4%;
+}
+
+.skill {
+  text-align: center;
+  display: flex;
+}
+.progress {
+  background-color: #d8d8d8;
+  border-radius: 20px;
+  position: relative;
+  top: 2px;
+  margin: 0 15% 0 auto;
+  height: 8px;
+  width: 38%;
+}
+
+.progress-done {
+  background: #000000;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.skillsLabel {
+  font-size: 0.7rem;
+  width: 108px;
+  margin-left: 10%;
+}
+.lastSkill {
+  margin-bottom: 8%;
+}
+
+.connectHorizontalLine {
+  width: 170px;
+  top: -33px;
+  left: calc(50% - 87px);
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #000000;
+}
+
+.formLabel {
+  padding: 12px 12px 0 0;
+  display: inline-block;
+  font-weight: bold;
+}
+
+input[type="submit"] {
+  background-color: #000000;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  width: 50%;
+  cursor: pointer;
+}
+.submitContainer {
+  text-align: center;
+  padding-top: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+.formContainer {
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding-bottom: 35px;
+}
+.formRow {
+  display: table;
+  margin: 0 auto;
+  width: 60%;
+}
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 100%;
+  margin-top: 6px;
+  margin: 0 auto;
+}
+
+.formRow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-25,
+.col-75 {
+  width: 100%;
+  margin-top: 0;
+}
+
+.portfolioHorizontalLine {
+  width: 164px;
+  top: -33px;
+  left: calc(50% - 82px);
+}
+.projectTitle {
+  font-weight: bold;
+}
+.projectVideo {
+  width: 100%;
+  height: 200px;
+}
+.projectDescription {
+  font-size: 0.7rem;
+}
+section {
+  border-bottom: 1px solid #ddd;
+  padding: 10% 3.5%;
+}
+.pBtn {
+  cursor: pointer;
+  background-color: #000000;
+  outline: none;
+  border: none;
+  color: #ffffff;
+}
+.pBtn:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.pBtn:focus,
+.pBtn:active {
+  outline: none;
+  border: none;
+}
+.projectBtn2Container {
+  text-align: center;
+}
+.projectBtn2 {
+  width: 80px;
+  height: 30px;
+  font-size: 0.7rem;
+  margin-top: 5px;
+}
+
+@media all and (min-width: 768px) {
+  .homeMain {
+    display: flex;
+  }
+  .myPicture {
+    margin-right: 20px;
+  }
+  .mainContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .mainText {
+    font-size: 2.7rem;
+    font-weight: 800;
+    text-align: left;
+    margin-top: 90%;
+  }
+  .mainSubText {
+    text-align: left;
+    position: relative;
+    top: -15px;
+  }
+  .homeHorizontalLine {
+    width: 186px;
+    position: relative;
+    top: -25px;
+    margin-left: 0;
+  }
+  .btnHome {
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    margin-right: 10px;
+  }
+  .btnHome2 {
+    width: 120px;
+    height: 40px;
+    text-align: center;
+  }
+  .aboutHorizontalLine {
+    margin-bottom: 3%;
+    top: -27px;
+    width: 132px;
+    left: calc(50% - 66px);
+  }
+  .aboutMainText {
+    margin: -4% 22% 4% 22%;
+    font-size: 1rem;
+  }
+  .homeBtns {
+    margin-bottom: 5%;
+  }
+  .mySkillsHeading {
+    text-align: left;
+    margin-left: 10%;
+  }
+
+  .mainTitle {
+    font-size: 2.7rem;
+  }
+  .threeSkills {
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+  }
+  .skill {
+    width: 30%;
+  }
+  .mySkillsHeading {
+    margin-left: 8%;
+  }
+  .progress {
+    margin: 0 11% 0 auto;
+  }
+
+  .footer {
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    height: 100px;
+  }
+  .footerText {
+    flex: 2;
+    display: flex;
+    order: 1;
+  }
+  .footerTitle {
+    flex: 1;
+    text-align: center;
+    margin: auto 10px;
+    padding: 10px 0 10px 0;
+  }
+  .contactInfo {
+    flex: 3;
+    padding-left: 50px;
+    margin: auto auto;
+  }
+  .footerIcons {
+    flex: 1;
+    text-align: right;
+    padding-right: 50px;
+    margin: auto auto;
+    order: 2;
+  }
+  .footerIcons a {
+    margin-right: 10px;
+    margin-left: 15px;
+    color: yellow;
+  }
+  .formRow {
+    width: 30%;
+  }
+  .connectHorizontalLine {
+    width: 200px;
+    left: calc(50% - 100px);
+  }
+  .portfolioHorizontalLine {
+    width: 190px;
+    left: calc(50% - 95px);
+  }
+  .project {
+    display: flex;
+  }
+  .projectInfo {
+    flex: 1;
+  }
+  .projectVideoContainer {
+    flex: 2;
+  }
+  .projectVideo {
+    height: 330px;
+  }
+  .projectTitle {
+    font-size: 1.5rem;
+  }
+  .projectDescription {
+    font-size: 0.8rem;
+    margin: 20px 40px 20px 0;
+  }
+  .projectBtn {
+    margin-top: 3%;
+    width: 45%;
+    height: 45px;
+    font-size: 0.9rem;
+  }
+}

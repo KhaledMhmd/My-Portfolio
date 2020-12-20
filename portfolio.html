@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khaled Mohamed - Home</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body id="homepage">
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light static-top">
+        <div class="container-fluid">
+          <button class="backBtn">
+            <img src="back.png" alt="back arrow" class="imgBack" />
+          </button>
+          <a class="navbar-brand" href="homepage.html">
+            <img class="logo" src="logo.png" alt="image of the logo" />
+          </a>
+          <button
+            class="navbar-toggle navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarResponsive"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link navLink" href="about.html"
+                  >About
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navLink" href="portfolio.html">Portfolio</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link navLink" href="connect.html">Connect</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="main">
+      <h1 class="mainTitle">MY PORTFOLIO</h1>
+      <svg height="10" class="portfolioHorizontalLine hLine">
+        <rect
+          class="portfolioHorizontalLine hLine"
+          height="10"
+          width="0"
+          style="fill: rgb(255, 255, 0); stroke-width: 1"
+        />
+      </svg>
+      <section class="project">
+        <div class="projectInfo">
+          <h6 class="projectTitle">Bankist App</h6>
+          <p class="projectDescription">
+            An e-banking website that lets the user handle their banking
+            transactions that I had as a project in a Javascript course that I
+            was taking. In this website, we have a mini database for multiple
+            users, each has their own username, password, account balance,
+            ..etc. The user can request loans from the bank, transfer money to
+            any other user of the website or close their account. It's a demo
+            website of course.
+          </p>
+          <div class="d-none d-md-block projectBtns">
+            <form class="projectBtnContainer">
+              <button
+                class="pBtn projectBtn"
+                type="submit"
+                formaction="https://github.com/KhaledMhmd/Bankist-App"
+              >
+                Open On &nbsp;<i class="fab fa-github"> </i>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="projectVideoContainer">
+          <video
+            class="projectVideo"
+            src="bankistapp.webm"
+            autoplay
+            muted
+            loop
+            controls
+          ></video>
+          <div class="d-xs-block d-md-none projectBtns">
+            <form class="projectBtn2Container">
+              <button
+                class="pBtn projectBtn2"
+                type="submit"
+                formaction="https://github.com/KhaledMhmd/Bankist-App"
+              >
+                Open On &nbsp;<i class="fab fa-github"> </i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="project">
+        <div class="projectInfo">
+          <h6 class="projectTitle">Bankist App (New Interface)</h6>
+          <p class="projectDescription">
+            A new interface for the previously mentioned bankist website, which
+            was also a project in a course. This new interface has a more
+            marketing approach for the bank, a prettier looking landing page
+            which has tapped components, sliders, fading in and out of sections,
+            lazy loading images and much more, all while preserving the
+            minimalistic identity of the website.
+          </p>
+          <div class="d-none d-md-block projectBtns">
+            <form class="projectBtnContainer">
+              <button
+                class="pBtn projectBtn"
+                type="submit"
+                formaction="https://github.com/KhaledMhmd/New-interface-for-the-bankist-app"
+              >
+                Open On &nbsp;<i class="fab fa-github"> </i>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="projectVideoContainer">
+          <video
+            class="projectVideo"
+            src="bankistnewapp.webm"
+            autoplay
+            muted
+            loop
+            controls
+          ></video>
+          <div class="d-xs-block d-md-none projectBtns">
+            <form class="projectBtn2Container">
+              <button
+                class="pBtn projectBtn2"
+                type="submit"
+                formaction="https://github.com/KhaledMhmd/New-interface-for-the-bankist-app"
+              >
+                Open On &nbsp;<i class="fab fa-github"> </i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="project">
+        <div class="projectInfo">
+          <h6 class="projectTitle">Mapty App</h6>
+          <p class="projectDescription">
+            A health/fitness website that lets users keep track of their
+            workouts, document them and store them in the website. The user
+            pinpoints the location of the workout on a map using geolocation Api
+            and leaflet library to display map at the user's current location,
+            and storing these workouts in local storage where we can also load
+            previous workouts from. This was also a project in a course I took.
+          </p>
+          <div class="d-none d-md-block projectBtns">
+            <form class="projectBtnContainer">
+              <button
+                class="pBtn projectBtn"
+                type="submit"
+                formaction="https://github.com/KhaledMhmd/mapty-application"
+              >
+                Open On &nbsp;<i class="fab fa-github"> </i>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="projectVideoContainer">
+          <video
+            class="projectVideo"
+            src="maptyapp.webm"
+            autoplay
+            muted
+            loop
+            controls
+          ></video>
+          <div class="d-xs-block d-md-none projectBtns">
+            <form class="projectBtn2Container">
+              <button
+                class="pBtn projectBtn2"
+                type="submit"
+                formaction="https://github.com/KhaledMhmd/mapty-application"
+              >
+                Open On &nbsp;<i class="fab fa-github"> </i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="footer">
+      <div class="footerIcons">
+        <a href="https://www.linkedin.com/in/Khaled-Mhmd/"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/KhaledMhmd"
+          ><i class="fab fa-github"></i
+        ></a>
+      </div>
+      <div class="footerText">
+        <div class="footerTitle">Contact Me</div>
+        <div class="contactInfo">
+          <div class="email">Email: &nbsp;KhaledMhmd174@gmail.com</div>
+          <div class="address">
+            Address: &nbsp;8 Ahmed AbdelGhaffar, Cairo, Egypt
+          </div>
+          <div class="number">Number: &nbsp;+01112258484</div>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
